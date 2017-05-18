@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Final Fantasy Battle RPG</title>
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+<!-- Custom CSS -->
+<link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+<body>
+<div id="thisPage" class="container-fluid">
+<div class="row chooseChar">
+  <div class="col-sm-12">
+    <h1 class="text-right">Final Fantasy RPG</h1>
+      <h1 style="text-align: center;">Make your selection...</h1>
+  </div>
+</div>
+<div class="row chooseChar">
+  <div class="col-sm-12" style="text-align: center;">
+    <ul class="characters">
+      <li><img class="charImg" src="assets/images/angeal.jpeg" alt="Angeal" id="angeal"></li>
+      <li><img class="charImg" src="assets/images/cloud.jpeg" alt="Cloud" id="cloud"></li>
+      <li><img class="charImg" src="assets/images/genesis.jpeg" alt="Genesis" id="genesis"></li>
+      <li><img class="charImg" src="assets/images/sephiroth.jpeg" alt="Sephiroth" id="sephiroth"></li>
+    </ul>
+    <p>Health: 100-200hp, Attack: TBD, Counter: TBD</p>
+  </div>
+</div>
+
+<div class="row">
+  <div class="col-sm-12">
+    <h1 id="gameTitle" class="text-right"></h1>
+  </div>
+</div>
+
+    <div class="row" style="text-align:center;">
+      <div class="col-sm-12">
+        <h1 id="yourChar"></h1>
+
+      </div>
+    </div>
+
+    <div class="row" style="text-align:center;">
+      <div class="col-sm-12">
+        <h1 id="eAvailable"></h1>
+          <ul class="characters2">
+          <li id="e1">
+
+          </li>
+          <li id="e2">
+
+          </li>
+          <li id="e3">
+
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="row" style="text-align:center;">
+      <div class="col-sm-12">
+        <h1 id="fightSection"></h1>
+
+      </div>
+    </div>
+
+    <div class="row" style="text-align:center;">
+      <div id="defender" class="col-sm-12">
+        
+      </div>
+    </div>
+
+    <div class="row" style="text-align:center; padding-bottom: 200px;">
+      <div id="gameInfo" class="col-sm-12">
+      </div>
+    </div>
+
+</div>
+<!-- Custom Script -->
+<script src="assets/javascript/game.js"></script>
+</body>
+</html>

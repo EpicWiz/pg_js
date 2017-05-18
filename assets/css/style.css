@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  background-image: url('../images/ff7.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+h1 {
+  padding-right: 120px;
+ text-shadow: 2px 2px 2px #0084b4;
+}
+h2 {
+  text-shadow: 2px 2px 2px #0084b4;
+}
+.characters, .characters2 {
+  list-style-type: none;
+}
+.characters li, .characters2 li {
+  display: inline;
+}
+.charImg, .charImg2, .charImg3 {
+  max-width: 200px;
+}
+.charWrap {
+  width: 205px;
+  text-align: center;
+  background-color: #FFF;
+  border: 2px solid #0084b4;
+  border-radius: 10px;
+  display: inline-block;
+}
+.charWrapE {
+  width: 205px;
+  text-align: center;
+  background-color: #F00;
+  border: 2px solid #0084b4;
+  border-radius: 10px;
+  display: inline-block;
+}
